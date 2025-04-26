@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-26T19:52:20 IST" name="Suite" finished-at="2025-04-26T19:52:20 IST" duration-ms="83">
+    <groups>
+      <group name="functional">
+        <method signature="PaymentTest.paymentByINR()[pri:1, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" name="paymentByINR" class="testNGPractice.Groupping.PaymentTest"/>
+        <method signature="PaymentTest.paymentByDoller()[pri:2, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" name="paymentByDoller" class="testNGPractice.Groupping.PaymentTest"/>
+        <method signature="PaymentTest.paymentByYen()[pri:3, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" name="paymentByYen" class="testNGPractice.Groupping.PaymentTest"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="PaymentTest.paymentByINR()[pri:1, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" name="paymentByINR" class="testNGPractice.Groupping.PaymentTest"/>
+        <method signature="SignupTest.signupByfacebook()[pri:1, instance:testNGPractice.Groupping.SignupTest@3cd3e762]" name="signupByfacebook" class="testNGPractice.Groupping.SignupTest"/>
+        <method signature="PaymentTest.paymentByDoller()[pri:2, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" name="paymentByDoller" class="testNGPractice.Groupping.PaymentTest"/>
+        <method signature="SignupTest.signupByGoogle()[pri:2, instance:testNGPractice.Groupping.SignupTest@3cd3e762]" name="signupByGoogle" class="testNGPractice.Groupping.SignupTest"/>
+        <method signature="PaymentTest.paymentByYen()[pri:3, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" name="paymentByYen" class="testNGPractice.Groupping.PaymentTest"/>
+        <method signature="SignupTest.signupByX()[pri:3, instance:testNGPractice.Groupping.SignupTest@3cd3e762]" name="signupByX" class="testNGPractice.Groupping.SignupTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginTest.loginByfacebook()[pri:1, instance:testNGPractice.Groupping.LoginTest@3eb738bb]" name="loginByfacebook" class="testNGPractice.Groupping.LoginTest"/>
+        <method signature="PaymentTest.paymentByINR()[pri:1, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" name="paymentByINR" class="testNGPractice.Groupping.PaymentTest"/>
+        <method signature="LoginTest.loginByGoogle()[pri:2, instance:testNGPractice.Groupping.LoginTest@3eb738bb]" name="loginByGoogle" class="testNGPractice.Groupping.LoginTest"/>
+        <method signature="PaymentTest.paymentByDoller()[pri:2, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" name="paymentByDoller" class="testNGPractice.Groupping.PaymentTest"/>
+        <method signature="LoginTest.loginByX()[pri:3, instance:testNGPractice.Groupping.LoginTest@3eb738bb]" name="loginByX" class="testNGPractice.Groupping.LoginTest"/>
+        <method signature="PaymentTest.paymentByYen()[pri:3, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" name="paymentByYen" class="testNGPractice.Groupping.PaymentTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-04-26T19:52:20 IST" name="Test" finished-at="2025-04-26T19:52:20 IST" duration-ms="83">
+      <class name="testNGPractice.Groupping.LoginTest">
+        <test-method signature="loginByfacebook()[pri:1, instance:testNGPractice.Groupping.LoginTest@3eb738bb]" started-at="2025-04-26T19:52:20 IST" name="loginByfacebook" finished-at="2025-04-26T19:52:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByfacebook -->
+        <test-method signature="loginByGoogle()[pri:2, instance:testNGPractice.Groupping.LoginTest@3eb738bb]" started-at="2025-04-26T19:52:20 IST" name="loginByGoogle" finished-at="2025-04-26T19:52:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByGoogle -->
+        <test-method signature="loginByX()[pri:3, instance:testNGPractice.Groupping.LoginTest@3eb738bb]" started-at="2025-04-26T19:52:20 IST" name="loginByX" finished-at="2025-04-26T19:52:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByX -->
+      </class> <!-- testNGPractice.Groupping.LoginTest -->
+      <class name="testNGPractice.Groupping.PaymentTest">
+        <test-method signature="paymentByINR()[pri:1, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" started-at="2025-04-26T19:52:20 IST" name="paymentByINR" finished-at="2025-04-26T19:52:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentByINR -->
+        <test-method signature="paymentByDoller()[pri:2, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" started-at="2025-04-26T19:52:20 IST" name="paymentByDoller" finished-at="2025-04-26T19:52:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentByDoller -->
+        <test-method signature="paymentByYen()[pri:3, instance:testNGPractice.Groupping.PaymentTest@3b0090a4]" started-at="2025-04-26T19:52:20 IST" name="paymentByYen" finished-at="2025-04-26T19:52:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentByYen -->
+      </class> <!-- testNGPractice.Groupping.PaymentTest -->
+      <class name="testNGPractice.Groupping.SignupTest">
+        <test-method signature="signupByfacebook()[pri:1, instance:testNGPractice.Groupping.SignupTest@3cd3e762]" started-at="2025-04-26T19:52:20 IST" name="signupByfacebook" finished-at="2025-04-26T19:52:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupByfacebook -->
+        <test-method signature="signupByGoogle()[pri:2, instance:testNGPractice.Groupping.SignupTest@3cd3e762]" started-at="2025-04-26T19:52:20 IST" name="signupByGoogle" finished-at="2025-04-26T19:52:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupByGoogle -->
+        <test-method signature="signupByX()[pri:3, instance:testNGPractice.Groupping.SignupTest@3cd3e762]" started-at="2025-04-26T19:52:20 IST" name="signupByX" finished-at="2025-04-26T19:52:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupByX -->
+      </class> <!-- testNGPractice.Groupping.SignupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
